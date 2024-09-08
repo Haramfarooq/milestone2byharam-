@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+header{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: rgb(100, 98, 94);
+    height: 120px;
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2{
+    border-bottom: 2px, solid, black;
+}
+ img{
+    width: 150px;
+    height: 150px; 
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 50%;
+ }
+ button {
+    display: block;
+    background-color: rgb(62, 58, 90);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(51, 113, 116);
+}
+.hidden {
+    display: none;
+}
+
